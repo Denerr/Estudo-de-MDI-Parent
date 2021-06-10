@@ -143,7 +143,7 @@ namespace Estudo_de_MDI_Parent
             this.btnJurosComposto.Name = "btnJurosComposto";
             this.btnJurosComposto.Size = new System.Drawing.Size(183, 40);
             this.btnJurosComposto.TabIndex = 0;
-            this.btnJurosComposto.Text = "Calcular Juros";
+            this.btnJurosComposto.Text = "Calcular Montante";
             this.btnJurosComposto.UseVisualStyleBackColor = true;
             this.btnJurosComposto.Click += new System.EventHandler(this.btnJurosComposto_Click);
             // 

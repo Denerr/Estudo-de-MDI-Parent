@@ -106,6 +106,7 @@ namespace Estudo_de_MDI_Parent
 
         private void btnJurosComposto_Click(object sender, EventArgs e)
         {
+            abrirChildForm(new Form6());
             //...
             //Codigo aqui;
             //..
@@ -115,6 +116,7 @@ namespace Estudo_de_MDI_Parent
 
         private void btnCapitalComposto_Click(object sender, EventArgs e)
         {
+            abrirChildForm(new Form7());
             //...
             //Codigo aqui;
             //..
@@ -124,6 +126,7 @@ namespace Estudo_de_MDI_Parent
 
         private void btnTaxaComposto_Click(object sender, EventArgs e)
         {
+            abrirChildForm(new Form8());
             //...
             //Codigo aqui;
             //..
@@ -133,6 +136,8 @@ namespace Estudo_de_MDI_Parent
 
         private void btnTempoComposto_Click(object sender, EventArgs e)
         {
+
+            abrirChildForm(new Form9());
             //...
             //Codigo aqui;
             //..
