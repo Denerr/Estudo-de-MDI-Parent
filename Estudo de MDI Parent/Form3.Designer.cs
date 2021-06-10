@@ -44,7 +44,7 @@ namespace Estudo_de_MDI_Parent
             // 
             // btnFechar
             // 
-            this.btnFechar.Location = new System.Drawing.Point(34, 35);
+            this.btnFechar.Location = new System.Drawing.Point(33, 35);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(81, 33);
             this.btnFechar.TabIndex = 19;
@@ -56,7 +56,7 @@ namespace Estudo_de_MDI_Parent
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(367, 257);
+            this.label4.Location = new System.Drawing.Point(364, 228);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(72, 15);
             this.label4.TabIndex = 18;
@@ -65,7 +65,7 @@ namespace Estudo_de_MDI_Parent
             // txtResultado
             // 
             this.txtResultado.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
-            this.txtResultado.Location = new System.Drawing.Point(317, 285);
+            this.txtResultado.Location = new System.Drawing.Point(314, 256);
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.ReadOnly = true;
             this.txtResultado.Size = new System.Drawing.Size(174, 23);
@@ -75,7 +75,7 @@ namespace Estudo_de_MDI_Parent
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(78, 388);
+            this.label3.Location = new System.Drawing.Point(75, 359);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(106, 15);
             this.label3.TabIndex = 16;
@@ -84,7 +84,7 @@ namespace Estudo_de_MDI_Parent
             // txtTempo
             // 
             this.txtTempo.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
-            this.txtTempo.Location = new System.Drawing.Point(70, 416);
+            this.txtTempo.Location = new System.Drawing.Point(67, 387);
             this.txtTempo.Name = "txtTempo";
             this.txtTempo.Size = new System.Drawing.Size(174, 23);
             this.txtTempo.TabIndex = 15;
@@ -93,7 +93,7 @@ namespace Estudo_de_MDI_Parent
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(78, 257);
+            this.label2.Location = new System.Drawing.Point(75, 228);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(149, 15);
             this.label2.TabIndex = 14;
@@ -102,7 +102,7 @@ namespace Estudo_de_MDI_Parent
             // txtTaxa
             // 
             this.txtTaxa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
-            this.txtTaxa.Location = new System.Drawing.Point(70, 285);
+            this.txtTaxa.Location = new System.Drawing.Point(67, 256);
             this.txtTaxa.Name = "txtTaxa";
             this.txtTaxa.Size = new System.Drawing.Size(174, 23);
             this.txtTaxa.TabIndex = 13;
@@ -111,7 +111,7 @@ namespace Estudo_de_MDI_Parent
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(78, 146);
+            this.label1.Location = new System.Drawing.Point(75, 117);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(98, 15);
             this.label1.TabIndex = 12;
@@ -120,14 +120,14 @@ namespace Estudo_de_MDI_Parent
             // txtJuros
             // 
             this.txtJuros.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
-            this.txtJuros.Location = new System.Drawing.Point(70, 174);
+            this.txtJuros.Location = new System.Drawing.Point(67, 145);
             this.txtJuros.Name = "txtJuros";
             this.txtJuros.Size = new System.Drawing.Size(174, 23);
             this.txtJuros.TabIndex = 11;
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(410, 475);
+            this.btnLimpar.Location = new System.Drawing.Point(407, 387);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(81, 33);
             this.btnLimpar.TabIndex = 21;
@@ -137,7 +137,7 @@ namespace Estudo_de_MDI_Parent
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(317, 475);
+            this.btnCalcular.Location = new System.Drawing.Point(314, 387);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(81, 33);
             this.btnCalcular.TabIndex = 20;

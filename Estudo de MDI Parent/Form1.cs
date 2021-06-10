@@ -78,6 +78,7 @@ namespace Estudo_de_MDI_Parent
 
         private void btnTaxaSimples_Click(object sender, EventArgs e)
         {
+            abrirChildForm(new Form4());
             //...
             //Codigo aqui
             //..
@@ -87,6 +88,7 @@ namespace Estudo_de_MDI_Parent
 
         private void btnTempoSimples_Click(object sender, EventArgs e)
         {
+            abrirChildForm(new Form5());
             //...
             //Codigo aqui;
             //..
