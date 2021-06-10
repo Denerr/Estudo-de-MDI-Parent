@@ -27,6 +27,7 @@ namespace Estudo_de_MDI_Parent
         {
             pnlSubmenuSimples.Visible = false;
             pnlSubmenuComposto.Visible = false;
+            pnlDescontoSimples.Visible = false;
         }
 
         private void hideSubMenu()
@@ -35,6 +36,8 @@ namespace Estudo_de_MDI_Parent
                 pnlSubmenuSimples.Visible = false;
             if (pnlSubmenuComposto.Visible == true)
                 pnlSubmenuComposto.Visible = false;
+            if (pnlDescontoSimples.Visible == true)
+                pnlDescontoSimples.Visible = false;
         }
 
         private void showSubMenu(Panel Submenu)
@@ -149,6 +152,47 @@ namespace Estudo_de_MDI_Parent
             pnlChildForm.Controls.Add(childForm);
             pnlChildForm.Tag = childForm;
             childForm.Show();
+        }
+
+        private void btnDescontoSimples_Click(object sender, EventArgs e)
+        {
+            showSubMenu(pnlDescontoSimples);
+        }
+
+        private void btnDesconto_Click(object sender, EventArgs e)
+        {
+            //...
+            //Codigo aqui;
+            //..
+            //Deixar o hideSubmenu() sempre em ultimo;
+            hideSubMenu();
+        }
+
+        private void btnNominal_Click(object sender, EventArgs e)
+        {
+            //...
+            //Codigo aqui;
+            //..
+            //Deixar o hideSubmenu() sempre em ultimo;
+            hideSubMenu();
+        }
+
+        private void btnTaxaDesconto_Click(object sender, EventArgs e)
+        {
+            //...
+            //Codigo aqui;
+            //..
+            //Deixar o hideSubmenu() sempre em ultimo;
+            hideSubMenu();
+        }
+
+        private void btnPeriodo_Click(object sender, EventArgs e)
+        {
+            //...
+            //Codigo aqui;
+            //..
+            //Deixar o hideSubmenu() sempre em ultimo;
+            hideSubMenu();
         }
     }
 }

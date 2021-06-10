@@ -44,15 +44,24 @@ namespace Estudo_de_MDI_Parent
             this.btnSimples = new System.Windows.Forms.Button();
             this.pnlLogo = new System.Windows.Forms.Panel();
             this.pnlChildForm = new System.Windows.Forms.Panel();
+            this.btnDescontoSimples = new System.Windows.Forms.Button();
+            this.pnlDescontoSimples = new System.Windows.Forms.Panel();
+            this.btnDesconto = new System.Windows.Forms.Button();
+            this.btnNominal = new System.Windows.Forms.Button();
+            this.btnTaxaDesconto = new System.Windows.Forms.Button();
+            this.btnPeriodo = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.pnlSubmenuComposto.SuspendLayout();
             this.pnlSubmenuSimples.SuspendLayout();
+            this.pnlDescontoSimples.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(2)))), ((int)(((byte)(33)))));
+            this.panel1.Controls.Add(this.pnlDescontoSimples);
+            this.panel1.Controls.Add(this.btnDescontoSimples);
             this.panel1.Controls.Add(this.pnlSubmenuComposto);
             this.panel1.Controls.Add(this.btnComposto);
             this.panel1.Controls.Add(this.pnlSubmenuSimples);
@@ -75,7 +84,7 @@ namespace Estudo_de_MDI_Parent
             this.pnlSubmenuComposto.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSubmenuComposto.Location = new System.Drawing.Point(0, 363);
             this.pnlSubmenuComposto.Name = "pnlSubmenuComposto";
-            this.pnlSubmenuComposto.Size = new System.Drawing.Size(200, 170);
+            this.pnlSubmenuComposto.Size = new System.Drawing.Size(183, 170);
             this.pnlSubmenuComposto.TabIndex = 3;
             // 
             // btnTempoComposto
@@ -87,7 +96,7 @@ namespace Estudo_de_MDI_Parent
             this.btnTempoComposto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(212)))), ((int)(((byte)(0)))));
             this.btnTempoComposto.Location = new System.Drawing.Point(0, 120);
             this.btnTempoComposto.Name = "btnTempoComposto";
-            this.btnTempoComposto.Size = new System.Drawing.Size(200, 40);
+            this.btnTempoComposto.Size = new System.Drawing.Size(183, 40);
             this.btnTempoComposto.TabIndex = 3;
             this.btnTempoComposto.Text = "Calcular Tempo";
             this.btnTempoComposto.UseVisualStyleBackColor = true;
@@ -102,7 +111,7 @@ namespace Estudo_de_MDI_Parent
             this.btnTaxaComposto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(212)))), ((int)(((byte)(0)))));
             this.btnTaxaComposto.Location = new System.Drawing.Point(0, 80);
             this.btnTaxaComposto.Name = "btnTaxaComposto";
-            this.btnTaxaComposto.Size = new System.Drawing.Size(200, 40);
+            this.btnTaxaComposto.Size = new System.Drawing.Size(183, 40);
             this.btnTaxaComposto.TabIndex = 2;
             this.btnTaxaComposto.Text = "Calcular Taxa Unitária";
             this.btnTaxaComposto.UseVisualStyleBackColor = true;
@@ -117,7 +126,7 @@ namespace Estudo_de_MDI_Parent
             this.btnCapitalComposto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(212)))), ((int)(((byte)(0)))));
             this.btnCapitalComposto.Location = new System.Drawing.Point(0, 40);
             this.btnCapitalComposto.Name = "btnCapitalComposto";
-            this.btnCapitalComposto.Size = new System.Drawing.Size(200, 40);
+            this.btnCapitalComposto.Size = new System.Drawing.Size(183, 40);
             this.btnCapitalComposto.TabIndex = 1;
             this.btnCapitalComposto.Text = "Calcular Capital";
             this.btnCapitalComposto.UseVisualStyleBackColor = true;
@@ -132,7 +141,7 @@ namespace Estudo_de_MDI_Parent
             this.btnJurosComposto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(212)))), ((int)(((byte)(0)))));
             this.btnJurosComposto.Location = new System.Drawing.Point(0, 0);
             this.btnJurosComposto.Name = "btnJurosComposto";
-            this.btnJurosComposto.Size = new System.Drawing.Size(200, 40);
+            this.btnJurosComposto.Size = new System.Drawing.Size(183, 40);
             this.btnJurosComposto.TabIndex = 0;
             this.btnJurosComposto.Text = "Calcular Juros";
             this.btnJurosComposto.UseVisualStyleBackColor = true;
@@ -148,7 +157,7 @@ namespace Estudo_de_MDI_Parent
             this.btnComposto.Location = new System.Drawing.Point(0, 318);
             this.btnComposto.Name = "btnComposto";
             this.btnComposto.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnComposto.Size = new System.Drawing.Size(200, 45);
+            this.btnComposto.Size = new System.Drawing.Size(183, 45);
             this.btnComposto.TabIndex = 2;
             this.btnComposto.Text = "Juros Compostos";
             this.btnComposto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -165,7 +174,7 @@ namespace Estudo_de_MDI_Parent
             this.pnlSubmenuSimples.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSubmenuSimples.Location = new System.Drawing.Point(0, 145);
             this.pnlSubmenuSimples.Name = "pnlSubmenuSimples";
-            this.pnlSubmenuSimples.Size = new System.Drawing.Size(200, 173);
+            this.pnlSubmenuSimples.Size = new System.Drawing.Size(183, 173);
             this.pnlSubmenuSimples.TabIndex = 1;
             // 
             // btnTempoSimples
@@ -178,7 +187,7 @@ namespace Estudo_de_MDI_Parent
             this.btnTempoSimples.Location = new System.Drawing.Point(0, 120);
             this.btnTempoSimples.Name = "btnTempoSimples";
             this.btnTempoSimples.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnTempoSimples.Size = new System.Drawing.Size(200, 40);
+            this.btnTempoSimples.Size = new System.Drawing.Size(183, 40);
             this.btnTempoSimples.TabIndex = 4;
             this.btnTempoSimples.Text = "Calcular Tempo";
             this.btnTempoSimples.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -195,7 +204,7 @@ namespace Estudo_de_MDI_Parent
             this.btnTaxaSimples.Location = new System.Drawing.Point(0, 80);
             this.btnTaxaSimples.Name = "btnTaxaSimples";
             this.btnTaxaSimples.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnTaxaSimples.Size = new System.Drawing.Size(200, 40);
+            this.btnTaxaSimples.Size = new System.Drawing.Size(183, 40);
             this.btnTaxaSimples.TabIndex = 3;
             this.btnTaxaSimples.Text = "Calcular Taxa Unitária";
             this.btnTaxaSimples.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -212,7 +221,7 @@ namespace Estudo_de_MDI_Parent
             this.btnCapitalSimples.Location = new System.Drawing.Point(0, 40);
             this.btnCapitalSimples.Name = "btnCapitalSimples";
             this.btnCapitalSimples.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnCapitalSimples.Size = new System.Drawing.Size(200, 40);
+            this.btnCapitalSimples.Size = new System.Drawing.Size(183, 40);
             this.btnCapitalSimples.TabIndex = 2;
             this.btnCapitalSimples.Text = "Calcular Capital";
             this.btnCapitalSimples.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -229,7 +238,7 @@ namespace Estudo_de_MDI_Parent
             this.btnJurosSimples.Location = new System.Drawing.Point(0, 0);
             this.btnJurosSimples.Name = "btnJurosSimples";
             this.btnJurosSimples.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnJurosSimples.Size = new System.Drawing.Size(200, 40);
+            this.btnJurosSimples.Size = new System.Drawing.Size(183, 40);
             this.btnJurosSimples.TabIndex = 1;
             this.btnJurosSimples.Text = "Calculo de Juros";
             this.btnJurosSimples.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -246,7 +255,7 @@ namespace Estudo_de_MDI_Parent
             this.btnSimples.Location = new System.Drawing.Point(0, 100);
             this.btnSimples.Name = "btnSimples";
             this.btnSimples.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnSimples.Size = new System.Drawing.Size(200, 45);
+            this.btnSimples.Size = new System.Drawing.Size(183, 45);
             this.btnSimples.TabIndex = 0;
             this.btnSimples.Text = "Juros Simples";
             this.btnSimples.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -258,7 +267,7 @@ namespace Estudo_de_MDI_Parent
             this.pnlLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlLogo.Location = new System.Drawing.Point(0, 0);
             this.pnlLogo.Name = "pnlLogo";
-            this.pnlLogo.Size = new System.Drawing.Size(200, 100);
+            this.pnlLogo.Size = new System.Drawing.Size(183, 100);
             this.pnlLogo.TabIndex = 0;
             // 
             // pnlChildForm
@@ -269,6 +278,96 @@ namespace Estudo_de_MDI_Parent
             this.pnlChildForm.Name = "pnlChildForm";
             this.pnlChildForm.Size = new System.Drawing.Size(534, 596);
             this.pnlChildForm.TabIndex = 1;
+            // 
+            // btnDescontoSimples
+            // 
+            this.btnDescontoSimples.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDescontoSimples.FlatAppearance.BorderSize = 0;
+            this.btnDescontoSimples.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDescontoSimples.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDescontoSimples.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(212)))), ((int)(((byte)(0)))));
+            this.btnDescontoSimples.Location = new System.Drawing.Point(0, 533);
+            this.btnDescontoSimples.Name = "btnDescontoSimples";
+            this.btnDescontoSimples.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnDescontoSimples.Size = new System.Drawing.Size(183, 45);
+            this.btnDescontoSimples.TabIndex = 4;
+            this.btnDescontoSimples.Text = "Descontos Racionais Simples";
+            this.btnDescontoSimples.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDescontoSimples.UseVisualStyleBackColor = true;
+            this.btnDescontoSimples.Click += new System.EventHandler(this.btnDescontoSimples_Click);
+            // 
+            // pnlDescontoSimples
+            // 
+            this.pnlDescontoSimples.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(3)))), ((int)(((byte)(58)))));
+            this.pnlDescontoSimples.Controls.Add(this.btnPeriodo);
+            this.pnlDescontoSimples.Controls.Add(this.btnTaxaDesconto);
+            this.pnlDescontoSimples.Controls.Add(this.btnNominal);
+            this.pnlDescontoSimples.Controls.Add(this.btnDesconto);
+            this.pnlDescontoSimples.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlDescontoSimples.Location = new System.Drawing.Point(0, 578);
+            this.pnlDescontoSimples.Name = "pnlDescontoSimples";
+            this.pnlDescontoSimples.Size = new System.Drawing.Size(183, 168);
+            this.pnlDescontoSimples.TabIndex = 5;
+            // 
+            // btnDesconto
+            // 
+            this.btnDesconto.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDesconto.FlatAppearance.BorderSize = 0;
+            this.btnDesconto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDesconto.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
+            this.btnDesconto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(212)))), ((int)(((byte)(0)))));
+            this.btnDesconto.Location = new System.Drawing.Point(0, 0);
+            this.btnDesconto.Name = "btnDesconto";
+            this.btnDesconto.Size = new System.Drawing.Size(183, 40);
+            this.btnDesconto.TabIndex = 0;
+            this.btnDesconto.Text = "Calcular Desconto";
+            this.btnDesconto.UseVisualStyleBackColor = true;
+            this.btnDesconto.Click += new System.EventHandler(this.btnDesconto_Click);
+            // 
+            // btnNominal
+            // 
+            this.btnNominal.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnNominal.FlatAppearance.BorderSize = 0;
+            this.btnNominal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNominal.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
+            this.btnNominal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(212)))), ((int)(((byte)(0)))));
+            this.btnNominal.Location = new System.Drawing.Point(0, 40);
+            this.btnNominal.Name = "btnNominal";
+            this.btnNominal.Size = new System.Drawing.Size(183, 40);
+            this.btnNominal.TabIndex = 1;
+            this.btnNominal.Text = "Calcular Valor Nominal";
+            this.btnNominal.UseVisualStyleBackColor = true;
+            this.btnNominal.Click += new System.EventHandler(this.btnNominal_Click);
+            // 
+            // btnTaxaDesconto
+            // 
+            this.btnTaxaDesconto.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTaxaDesconto.FlatAppearance.BorderSize = 0;
+            this.btnTaxaDesconto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTaxaDesconto.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
+            this.btnTaxaDesconto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(212)))), ((int)(((byte)(0)))));
+            this.btnTaxaDesconto.Location = new System.Drawing.Point(0, 80);
+            this.btnTaxaDesconto.Name = "btnTaxaDesconto";
+            this.btnTaxaDesconto.Size = new System.Drawing.Size(183, 40);
+            this.btnTaxaDesconto.TabIndex = 2;
+            this.btnTaxaDesconto.Text = "Calcular Taxa de Desconto";
+            this.btnTaxaDesconto.UseVisualStyleBackColor = true;
+            this.btnTaxaDesconto.Click += new System.EventHandler(this.btnTaxaDesconto_Click);
+            // 
+            // btnPeriodo
+            // 
+            this.btnPeriodo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPeriodo.FlatAppearance.BorderSize = 0;
+            this.btnPeriodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPeriodo.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F);
+            this.btnPeriodo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(212)))), ((int)(((byte)(0)))));
+            this.btnPeriodo.Location = new System.Drawing.Point(0, 120);
+            this.btnPeriodo.Name = "btnPeriodo";
+            this.btnPeriodo.Size = new System.Drawing.Size(183, 40);
+            this.btnPeriodo.TabIndex = 3;
+            this.btnPeriodo.Text = "Calcular Periodo";
+            this.btnPeriodo.UseVisualStyleBackColor = true;
+            this.btnPeriodo.Click += new System.EventHandler(this.btnPeriodo_Click);
             // 
             // Form1
             // 
@@ -282,6 +381,7 @@ namespace Estudo_de_MDI_Parent
             this.panel1.ResumeLayout(false);
             this.pnlSubmenuComposto.ResumeLayout(false);
             this.pnlSubmenuSimples.ResumeLayout(false);
+            this.pnlDescontoSimples.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -303,6 +403,12 @@ namespace Estudo_de_MDI_Parent
         private System.Windows.Forms.Button btnTaxaComposto;
         private System.Windows.Forms.Button btnCapitalComposto;
         private System.Windows.Forms.Panel pnlChildForm;
+        private System.Windows.Forms.Panel pnlDescontoSimples;
+        private System.Windows.Forms.Button btnPeriodo;
+        private System.Windows.Forms.Button btnTaxaDesconto;
+        private System.Windows.Forms.Button btnNominal;
+        private System.Windows.Forms.Button btnDesconto;
+        private System.Windows.Forms.Button btnDescontoSimples;
     }
 }
 
